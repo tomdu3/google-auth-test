@@ -4,7 +4,9 @@
   "description": "Google OAuth test",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Tomislav Dukez",
   "license": "MIT",
@@ -13,5 +15,8 @@
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
