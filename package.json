@@ -1,22 +1,14 @@
 {
   "name": "google-auth",
   "version": "1.0.0",
-  "description": "Google OAuth test",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tomislav Dukez",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "dotenv": "^16.4.5",
-    "ejs": "^3.1.10",
-    "express": "^4.20.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
+    "passport-google-oauth20": "^2.0.0"
   }
 }
